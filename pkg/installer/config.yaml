@@ -1,0 +1,111 @@
+caCrt: |
+  -----BEGIN CERTIFICATE-----
+  MIIDkTCCAnmgAwIBAgIUIvHhigxy3KJ7wRLdXrb9WY6UjhAwDQYJKoZIhvcNAQEL
+  BQAwWDELMAkGA1UEBhMCQ04xETAPBgNVBAgMCFNoYW5naGFpMQ4wDAYDVQQHDAVY
+  dUh1aTEOMAwGA1UECgwFWEdhbWUxFjAUBgNVBAMMDVhHYW1lIHJvb3QgQ0EwHhcN
+  MjQwMjI2MDQxMTA3WhcNNDQwMjIxMDQxMTA3WjBYMQswCQYDVQQGEwJDTjERMA8G
+  A1UECAwIU2hhbmdoYWkxDjAMBgNVBAcMBVh1SHVpMQ4wDAYDVQQKDAVYR2FtZTEW
+  MBQGA1UEAwwNWEdhbWUgcm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+  AQoCggEBALaLGH5gOowsuWUfJXbOgUCdo1VgJ5EIouxYGwb9FthAWd40KAL4alAY
+  4J1tEcwGgpagNQ5s6z+/UGlW/r5X1hZ5MsLejQREf9ncV7RADOwyq5fXyhp3Rg1V
+  cL8Bk6K1do+CZsJN+GE9QZ0UHbsl9OqzAeKmNIxhvcbMirhyLyf9AdES6jyrz5G/
+  qWAqKjslSyh0U0qI/6Ji205//U+7Cs3cofr1RmUR+IE8fpL399C+mU+yQFbCnfuq
+  iMZa2RAhRkmPLXTQN/T2jFO80AlupVcTUQvGRNWi/yq6MQ2cr58yC6Er3mXe3d2Y
+  Y6FTPT0T8xe5CSHSKNpkGt4pz+iDd4cCAwEAAaNTMFEwHQYDVR0OBBYEFHIl7+ok
+  og7XHMnqdJgFHHxrRruPMB8GA1UdIwQYMBaAFHIl7+okog7XHMnqdJgFHHxrRruP
+  MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADUjDG3AGNpHaPCY
+  pZOhWCTzIyOyodxktXEu3jiq6uaIVkUULI4D02EUD1HvQWZADiwRSfOoJOWXYKJL
+  ubzkbT9IATup3xJc+WyEE8sz31/kMLWsIZKxGAnHQ1/3L7cC0OVH0u0l7D06h75D
+  N51HeT5WW/IFOlrGgr99Fxvl+Aoo6yFy6sWrsJJImqZXtXOY8EM7ChF41kaMG86V
+  vjH9C3L/xfNQ1sbJuEUSwkxqlnQrwPMfBxVreix5p/ghdOqg/7Q8UIY0z8Sgbhtx
+  lQldqCmV7OKzyE4f21ywFVY3Ic4vXh2eNiZ47F2jKaf5UZmtFAWPbR0GGtDuikr9
+  Un0M04o=
+  -----END CERTIFICATE-----
+serverCrt: |
+  -----BEGIN CERTIFICATE-----
+  MIIEcjCCA1qgAwIBAgIUcpZI5nI63Lrbz3+aWbaHAm8dC4kwDQYJKoZIhvcNAQEL
+  BQAwWDELMAkGA1UEBhMCQ04xETAPBgNVBAgMCFNoYW5naGFpMQ4wDAYDVQQHDAVY
+  dUh1aTEOMAwGA1UECgwFWEdhbWUxFjAUBgNVBAMMDVhHYW1lIHJvb3QgQ0EwHhcN
+  MjQwMjI2MDQxMTA3WhcNMzQwMjIzMDQxMTA3WjBYMQswCQYDVQQGEwJDTjERMA8G
+  A1UECAwIU2hhbmdoYWkxDjAMBgNVBAcMBVh1SHVpMQ4wDAYDVQQKDAVYR2FtZTEW
+  MBQGA1UEAwwNWEdhbWUgcm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+  AQoCggEBAK4ziJfxEkZwmnBwa38cxvFqxp1T5tfQHzDnGtyVb0GvHS1GX8di+Koz
+  8/XTVk6K3gaw98hc9iwICY3r4BM2mM1Pkw8IzPtcj1gXhdXRgYl0Z23nLKndPhKn
+  3b+pnCb4308JjE9UHklC/U+PbvE9CizhdDOmG5tSsGksKb3T/olmget4fmRECoZA
+  m85erEMeDlArjf8u+n3Du8QqYuoDzgVzh6wQbzJDkblnlACVO1wGq/QmFITmLnJg
+  Z0xOT88mLGYGD2C9CUsAAcFA7yki1d2yEAuS/B65iRiWD93qek39kCQRVyt2NaAK
+  SGqd5CVNG63jqbaS8e9ndd2Y1qAJdpMCAwEAAaOCATIwggEuMB8GA1UdIwQYMBaA
+  FHIl7+okog7XHMnqdJgFHHxrRruPMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgTwMIHT
+  BgNVHREEgcswgciCCWxvY2FsaG9zdIcEfwAAAYIaaWdhbWVjb25zb2xlLnlpbmd4
+  aW9uZy5jb22CFmRpc2NvdmVyeS1jb250cm9scGxhbmWCHCoua3ViZS1hcGkuc3Zj
+  LmNsdXN0ZXIubG9jYWyCIioua3ViZS1kaXNjb3Zlcnkuc3ZjLmNsdXN0ZXIubG9j
+  YWyCIioua3ViZS1hdXRob3JpdHkuc3ZjLmNsdXN0ZXIubG9jYWyCG2lnYW1lZ2Vy
+  YWRtaW4xLmhlcm9nYW1lLmNvbTAdBgNVHQ4EFgQU0vOGk/hlYvXsNXAO52Md4npB
+  HH4wDQYJKoZIhvcNAQELBQADggEBAINtj2N+K/IJNgouQoM8GvvrzweISpw5eZZF
+  GkIdFbrjg1GsRfIn1y6H/vTG/QQSy48ugGQ39y5f/RFY00AAPWC8OmlXKu/fvvQw
+  9m0apgnAn6atH2HqdXdCb0EIMIr21W3xJklk/fl/AwKuZIi+i4IDWMV5QJlGKjQz
+  1cMBgsJMhUn8s2RlViNEuSP4vN/1caPP6JmpGyDgUsqXqI5L7RsnFB4Ujni4FGA2
+  JkluAqzbA/g/c9HF/XXKUEx72rcnPIIrQk02wyw2y7p7zco2JIjdsLTuNVbL8KgH
+  fnoeFO2u8HR7mF9IaTfsHDvDn+x6g6sphl3UQAWA+dmQ3DjHon8=
+  -----END CERTIFICATE-----
+serverKey: |
+  -----BEGIN PRIVATE KEY-----
+  MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuM4iX8RJGcJpw
+  cGt/HMbxasadU+bX0B8w5xrclW9Brx0tRl/HYviqM/P101ZOit4GsPfIXPYsCAmN
+  6+ATNpjNT5MPCMz7XI9YF4XV0YGJdGdt5yyp3T4Sp92/qZwm+N9PCYxPVB5JQv1P
+  j27xPQos4XQzphubUrBpLCm90/6JZoHreH5kRAqGQJvOXqxDHg5QK43/Lvp9w7vE
+  KmLqA84Fc4esEG8yQ5G5Z5QAlTtcBqv0JhSE5i5yYGdMTk/PJixmBg9gvQlLAAHB
+  QO8pItXdshALkvweuYkYlg/d6npN/ZAkEVcrdjWgCkhqneQlTRut46m2kvHvZ3Xd
+  mNagCXaTAgMBAAECggEAH8aZs3GPblbq7Pisux6SMYZTHW6pDJPTpLV7QmJlzXr2
+  XQRZw0KL7mwUo7I9q40MK/dK83r1kpmSuJcepBKQ896Aij0GOxGquhxsVtDlCqA3
+  n6YMER4gzQFe4y+6oqdCAKZSuEO1VJLKJyGYUJvcR8yGSEeUAJSoRj7+jDhn1UMW
+  1edYs8xZkxQo5ngnuDbJwbKtsNfuXSIJFFcPwmABIS2kiKr8XOI0SmuY/Mf3GrRU
+  +WjYZySm6MwSwtWYFHk2D9hJ81zsOTfiPmjtpjrsot+QkDUfkr5TuEasO5N0uMRc
+  N35sykfwTkmfZTLpzmS/G8fNoOHpKLp/XWYadvikIQKBgQDiIR9u6LsRrZ3Wr75u
+  sG9p4do3AOKhMkikqK5jxsUPNjZpN3nFVKOJdj530kNcWEhM/gmPCieRngTsPjTs
+  nD+3d/Voq+9a01JOojKQL0P+PDIgosb9mTJCgRKHRYItYv35oYD3vnIptoWXzSFl
+  esad9C+lXaNs2AVqEHJFi0a6oQKBgQDFNmQY7xjx1aH9IySp9yX29nvA8PcPneWU
+  hjNd++alV/8vAJBuZn6h8OjmjQQQXFu7Vqbn9xN/qf0ztC7C0u97cxAsesXUy+ZJ
+  1JrWnZq5vZHkg6WMk+ZTLm9cY/LQYIJFO/qHejEJXqWJLyQuYGBczMvPe04bYuBm
+  iXXCtSn4swKBgQCH8/YcDlx6MnHVI3BQyE8Tz7AMpcGbvMmkBa5jWpwbmzJ3a90Q
+  YOS5vpesHoRVPtapQ4qnryk/CUxYZMYZA4/jVIH9XnHXn3m6wRW5TlGIxtQ0fuk4
+  iySGi2eCYK31b7DWpt0NFjk5Dv2e2LudcYV8bdU/jN62j+IhdKXfXe82QQKBgEOC
+  yiNq/kwTSP/iHvP8QkfXuyeilcEH2YbNphn/WMazaA0MEWVpuuHvGZuLHKAJLfHk
+  yQBRqaAjbiVcAkH5ebf1/MxtPvoIzw3pNRRRIZ2CEsZ6dpq4KrnBBKhJIt9Imm/f
+  B3WHU/AUMXDT7XvezD4YcZDWcjeX0p/nYKPF5tdXAoGAOBqYBZdFzje2HDlk1mHA
+  KrFf7EGB3P83KXssAB9zdLMmx2RWAHqxCKmtMFmswUWTjOKoUmFHSPtzFarRxj2S
+  /ShWhTHwzGGGxkWhKxNEv6pH+evDRIsGlFPv6qHRcNg1R7zv9v2tVYWMyOuq5zJ9
+  xru6V5dt62gYJTSXY+vBZ/E=
+  -----END PRIVATE KEY-----
+serviceLoadBalancerOption:
+  instanceKey: service.beta.kubernetes.io/alibaba-cloud-loadbalancer-id
+  instanceId: xxx
+  overrideKey: service.beta.kubernetes.io/alicloud-loadbalancer-force-override-listeners
+  accessControlKey: service.beta.kubernetes.io/alibaba-cloud-loadbalancer-acl-id
+  accessControlId: xxx
+  accessControlStatusKey: service.beta.kubernetes.io/alibaba-cloud-loadbalancer-acl-status
+  accessControlTypeKey: service.beta.kubernetes.io/alibaba-cloud-loadbalancer-acl-type
+dockerSecret:
+  name: aliyun-docker-secrets
+  username: xxx
+  password: xxx
+  email: xxx
+  server: xxx
+guldanImage:
+  discoveryEtcd: bitnami/etcd:3.5.4
+  discoveryControlPlane: kongzz45/discovery-controlplane:latest
+  sargerasApiServer: kongzz45/sargeras-apiserver:latest
+  sargerasDashboard: kongzz45/sargeras-dashboard:latest
+  authorityServer: kongzz45/authority-apiserver:latest
+  authorityDashboard: kongzz45/authority-dashboard:latest
+  guldanApiServer: kongzz45/guldan-apiserver:latest
+  guldanDashboard: kongzz45/guldan-dashboard:latest
+  discoveryAggregatorServer: kongzz45/discovery-aggregator:latest
+  discoveryDashboard: kongzz45/discovery-dashboard:latest
+nativeAppHost:
+  discoveryEtcd:
+  discoveryControlPlane:
+  sargerasApiServer: k8sadmin.example.com:10000
+  authorityServer: k8sadmin.example.com:10001
+  guldanApiServer: k8sadmin.example.com:10004
+  discoveryAggregatorServer: k8sadmin.example.com:10003
