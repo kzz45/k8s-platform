@@ -1,8 +1,10 @@
 # k8s-platform
 
+## 安装配置说明
+
 1. 购买 K8S 集群(阿里云 ACK )
 
-购买成功之后读取 kubeconfig 文件，如：bj.config
+购买成功之后读取集群的 kubeconfig 文件，如：bj.config
 ```sh
 ➜ vim bj.config
 ➜ kubectl --kubeconfig=bj.config get ns
@@ -34,26 +36,13 @@ writing RSA key
     1. caCrt ( pkg/certs/demo/ca/ca.crt )
     2. serverCrt ( pkg/certs/demo/certs/server.crt )
     3. serverKey ( pkg/certs/demo/certs/server.key )
-    4. 负载均衡ID ( 阿里云负载均衡的ID )
-    5. 访问控制ID ( 阿里云访问控制的ID )
-    6. 镜像下载配置 (阿里云的镜像服务，用户名、密码、地址)
-    7. K8S控制台域名 (自定义/例如：k8sadmin.example.com)
-5. kubectl apply -f pkg/deploy/crd/*
+    4. 负载均衡ID ( 阿里云负载均衡的ID ，需要购买)
+    5. 访问控制ID ( 阿里云访问控制的ID ，需要购买)
+    6. 镜像下载配置 (阿里云的镜像服务，用户名、密码、地址，需要购买)
+    7. K8S管理域名 (自定义/例如：k8sadmin.example.com ，需要运维配置域名解析)
+5. 安装 CRD kubectl apply -f pkg/deploy/crd/*
 
-CRD 安装输出如下
-```txt
-customresourcedefinition.apiextensions.k8s.io/aliyunloadbalancers.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/aliyunaccesscontrols.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/etcds.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/mysqls.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/redises.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/affinities.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/tolerations.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/nodeselectors.sargeras.nevercase.org configured
-customresourcedefinition.apiextensions.k8s.io/thralls.sargeras.nevercase.org created
-```
-
-6. 安装 ./bin/k8s-installer-darwin-arm64 -config=./pkg/installer/config.yaml -kubeconfig=./bj.config
+6. 软件安装 ./bin/k8s-installer-darwin-arm64 -config=./pkg/installer/config.yaml -kubeconfig=./bj.config
 
 安装输入如下说明安装正常且完成
 ```txt
@@ -66,3 +55,13 @@ customresourcedefinition.apiextensions.k8s.io/thralls.sargeras.nevercase.org cre
 2024-02-26T16:16:38.123+0800	INFO	builder/guldan.go:66	Successful create ConfigMaps:guldan-dashboard-config-json namespace:kube-api
 2024-02-26T16:16:38.192+0800	INFO	builder/guldan.go:357	Successful create Thrall:guldan namespace:kube-api
 ```
+
+## 地址说明
+
+假如域名为 k8sadmin.example.com
+
+那么 k8sadmin.example.com:9094 为镜像管理平台地址
+
+k8sadmin.example.com:9092 为 RBAC 管理平台地址
+
+k8sadmin.example.com:9091 为 K8S 管理平台地址
