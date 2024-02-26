@@ -65,3 +65,51 @@ writing RSA key
 k8sadmin.example.com:9092 为 RBAC 管理平台地址
 
 k8sadmin.example.com:9091 为 K8S 管理平台地址
+
+## Gitlab 配置
+
+首先需要在 Authority Dashboard 中新增 guldan 的用户，用来上传镜像
+
+其次需要在用户的环境变量中新增 guldan 的用户名密码和地址
+
+```sh
+export GULDAN_ADDRESS=""
+export GULDAN_USERNAME=""
+export GULDAN_PASSWORD=""
+```
+
+最后需要在 gitlab 的项目的 Makefile中新增如下(在上传镜像的动作中)
+
+```sh
+# PROJECT 项目名称
+# service 镜像名称
+# TAG 镜像 tag
+
+## make build-server-private author=kongzz service=gateway
+bash hack/guldan.sh cli $(PROJECT) $(service)-$(author) $(TAG)
+```
+
+```sh
+./bin/guldan-cli -h
+Usage of ./bin/guldan-cli:
+  -address string
+    	address
+  -branch string
+    	branch
+  -commitHash string
+    	commitHash
+  -git string
+    	git
+  -password string
+    	password
+  -project string
+    	project (default "lunara-common")
+  -repository string
+    	repository (default "guldan-cli")
+  -sha256 string
+    	sha256
+  -tag string
+    	tag
+  -username string
+    	username
+```
