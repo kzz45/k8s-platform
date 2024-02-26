@@ -42,6 +42,10 @@ writing RSA key
     7. K8S管理域名 (自定义/例如：k8sadmin.example.com ，需要运维配置域名解析)
 5. 安装 CRD kubectl apply -f pkg/deploy/crd/*
 
+在安装之前请确保 ns(kube-discovery | kube-authority | kube-api) 中有 镜像拉取的 secret 对象
+
+![dockerconfig](dockerconfig.png)
+
 6. 软件安装 ./bin/k8s-installer-darwin-arm64 -config=./pkg/installer/config.yaml -kubeconfig=./bj.config
 
 安装输入如下说明安装正常且完成
